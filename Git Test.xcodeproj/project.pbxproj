@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD31E5BA19844F2300E87E93 /* MBFTest.m in Sources */ = {isa = PBXBuildFile; fileRef = AD31E5B919844F2300E87E93 /* MBFTest.m */; };
 		AD467CFE19832E5200D2B5DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD467CFD19832E5200D2B5DD /* Foundation.framework */; };
 		AD467D0019832E5200D2B5DD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD467CFF19832E5200D2B5DD /* CoreGraphics.framework */; };
 		AD467D0219832E5200D2B5DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD467D0119832E5200D2B5DD /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD31E5B819844F2300E87E93 /* MBFTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFTest.h; sourceTree = "<group>"; };
+		AD31E5B919844F2300E87E93 /* MBFTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBFTest.m; sourceTree = "<group>"; };
 		AD467CFA19832E5200D2B5DD /* Git Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Git Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD467CFD19832E5200D2B5DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AD467CFF19832E5200D2B5DD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +120,8 @@
 				AD467D0F19832E5200D2B5DD /* Main.storyboard */,
 				AD467D1219832E5200D2B5DD /* MBFViewController.h */,
 				AD467D1319832E5200D2B5DD /* MBFViewController.m */,
+				AD31E5B819844F2300E87E93 /* MBFTest.h */,
+				AD31E5B919844F2300E87E93 /* MBFTest.m */,
 				AD467D1519832E5200D2B5DD /* Images.xcassets */,
 				AD467D0419832E5200D2B5DD /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD467D0E19832E5200D2B5DD /* MBFAppDelegate.m in Sources */,
+				AD31E5BA19844F2300E87E93 /* MBFTest.m in Sources */,
 				AD467D1419832E5200D2B5DD /* MBFViewController.m in Sources */,
 				AD467D0A19832E5200D2B5DD /* main.m in Sources */,
 			);
@@ -457,6 +463,7 @@
 				AD467D2E19832E5200D2B5DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD467D2F19832E5200D2B5DD /* Build configuration list for PBXNativeTarget "Git TestTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +472,7 @@
 				AD467D3119832E5200D2B5DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
